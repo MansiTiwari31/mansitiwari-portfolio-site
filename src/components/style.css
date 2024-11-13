@@ -1,0 +1,21 @@
+/* src/styles/style.css */
+
+@keyframes arrow {
+    0% {
+      transform: scale(1, 1);
+      padding-top: 0px;
+    }
+    100% {
+      transform: scale(1, 2);
+      padding-top: 10vh;
+    }
+  }
+  
+  .animated-arrow {
+    border-radius: 4vh;
+    background-color: #9c27b0;
+    padding: 1.5vh;
+    margin-bottom: -1.2vh;
+    animation: arrow 0.7s infinite;
+  }
+  

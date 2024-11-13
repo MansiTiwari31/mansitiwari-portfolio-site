@@ -1,0 +1,31 @@
+
+*{
+
+  box-sizing:'border-box';
+    padding:'0';
+    margin:'0';
+}
+
+.animated-arrow {
+  margin-bottom: -1.2vh;
+  animation: arrow 0.9s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  cursor: pointer;
+}
+
+@keyframes arrow {
+  0% {
+    top: 36px;
+    left: 36px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.8;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    opacity: 0.9;
+    border-radius: 6vh;
+  }
+}
